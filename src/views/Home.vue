@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Headphones" height="250px" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to your music streaming app" />
+    <HelloWorld msg="Welcome to YourMusic streaming app" />
   </div>
 </template>
 
