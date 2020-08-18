@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <img alt="Headphones" height="250px" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to your music streaming app" />
   </div>
 </template>
