@@ -37,7 +37,7 @@ export default {
   background-color: white;
 }
 a {
-  color: #039afa !important;
+  color: #42b983 !important;
   font-weight: bold !important;
 }
 audio::-webkit-media-controls-panel {
