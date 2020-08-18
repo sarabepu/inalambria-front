@@ -3,7 +3,7 @@
     <h3>Add song</h3>
     <form @submit.prevent="onSubmit" enctype="multipart/form-data" ref="form">
       <div class="form-group row">
-        <label for="file" class="col-sm-2 col-form-label">Archivo</label>
+        <label for="file" class="col-sm-2 col-form-label">File</label>
         <div class="col-sm-10">
           <input
             type="file"
@@ -16,7 +16,7 @@
       </div>
 
       <div class="form-group row">
-        <label for="artista" class="col-sm-2 col-form-label">Artista</label>
+        <label for="artista" class="col-sm-2 col-form-label">Artist</label>
         <div class="col-sm-10">
           <input
             type="text"
@@ -30,7 +30,7 @@
 
       <div class="form-group row">
         <label for="nameS" class="col-sm-2 col-form-label"
-          >Nombre de la canción</label
+          >Name of the song</label
         >
         <div class="col-sm-10">
           <input

@@ -1,12 +1,12 @@
 <template>
   <div>
     <b-icon icon="plus" id="show-btn" @click="showModal"></b-icon>
-    <b-modal ref="my-modal" hide-footer title="Using Component Methods">
+    <b-modal ref="my-modal" hide-footer title="Add to a playlist">
       <div class="d-block text-center">
-        <h3>Select the playlist to add the track</h3>
+        <h3>Select the playlist</h3>
         <b-form-select v-model="selected" :options="playlist"></b-form-select>
       </div>
-      <b-button class="mt-3" variant="outline-danger" block @click="hideModal"
+      <b-button class="mt-3" variant="outline-success" block @click="hideModal"
         >Add</b-button
       >
     </b-modal>
