@@ -6,7 +6,7 @@
         <h3>Select the playlist</h3>
         <b-form-select v-model="selected" :options="playlist"></b-form-select>
       </div>
-      <b-button class="mt-3" variant="outline-success" block @click="hideModal"
+      <b-button class="mt-3" variant="primary" block @click="hideModal"
         >Add</b-button
       >
     </b-modal>
