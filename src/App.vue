@@ -78,7 +78,7 @@ export default {
   text-align: left;
   margin-left: 100pt;
   a {
-    color: #42b983;
+    color: #039afa;
     font-weight: bold;
 
     &.router-link-exact-active {
