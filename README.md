@@ -1,24 +1,46 @@
-# front
+# YourMusic
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Authors:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+* [Juan Sebastian Prieto](https://github.com/jsprieto10) 👨‍💻 
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Description:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+YourMusic is a basic music reproductor thar allows you to:
+- Authenticate
+- Add new songs 
+- Create personalizable playlists
+- Add songs to your playlists
+- Listen to your favorite songs
+
+You can check the deployed version [here](https://inalambria-front.jsprieto10.vercel.app/).
+
+## Deployment
+
+You can check the deployed version [here](https://inalambria-front.jsprieto10.vercel.app/)
+- Clone this repo
+
+- Run the following commands
+
+  ```bash
+  cd front
+  npm install # Installs dependencies
+  npm run serve # Starts the front end
+  ```
+
+- Go to localhost:8080 on your browser
+
+
+## Screenshots
+
+### Home
+![Home](https://i.imgur.com/RonHX4b.png)
+
+
+## MIT License
+
+This project is licensed by the MIT License.
+
+
+
